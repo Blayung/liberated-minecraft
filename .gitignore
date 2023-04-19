@@ -1,0 +1,38 @@
+# THE MOD
+#===========
+
+# gradle
+liberated-minecraft-mod/.gradle/
+liberated-minecraft-mod/build/
+liberated-minecraft-mod/out/
+liberated-minecraft-mod/classes/
+
+# eclipse
+liberated-minecraft-mod/*.launch
+
+# idea
+liberated-minecraft-mod/.idea/
+liberated-minecraft-mod/*.iml
+liberated-minecraft-mod/*.ipr
+liberated-minecraft-mod/*.iws
+
+# vscode
+liberated-minecraft-mod/.settings/
+liberated-minecraft-mod/.vscode/
+liberated-minecraft-mod/bin/
+liberated-minecraft-mod/.classpath
+liberated-minecraft-mod/.project
+
+# macos
+liberated-minecraft-mod/*.DS_Store
+
+# fabric
+liberated-minecraft-mod/run/
+
+# THE SERVER
+#===========
+#smthsmth
+
+# THE PLUGIN
+#===========
+#smthsmth

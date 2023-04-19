@@ -1,0 +1,38 @@
+{
+    "schemaVersion": 1,
+
+    "id": "liberated-minecraft-mod",
+    "version": "0.0.0",
+    "name": "Liberated Minecraft Mod",
+    "description": "This mod aims to replace the minecraft authentication system with community-driven auth servers. This will forever stop Mojang from banning anybody through either chat reporting or any other means and will essentially make minecraft free.",
+    "icon": "assets/liberated-minecraft-mod/icon.png",
+    "license": "GPL-3.0-only",
+
+    "authors": [
+        "Blay"
+    ],
+    "contributors":[],
+
+    "contact": {
+        "sources":"https://github.com/Blayung/liberated-minecraft-project",
+        "issues":"https://github.com/Blayung/liberated-minecraft-project/issues",
+        "email":"gpewojan1@gmail.com"
+    },
+
+    "environment": "*",
+    "entrypoints": {
+        "client":[
+            "com.blay.liberatedminecraftmod.LiberatedMinecraftModClient"
+        ],
+        "server":[
+            "com.blay.liberatedminecraftmod.LiberatedMinecraftModServer"
+        ]
+    },
+
+    "depends": {
+        "fabricloader": "*",
+        "fabric": "*",
+        "minecraft": "*",
+        "java": ">=17"
+    }
+}
